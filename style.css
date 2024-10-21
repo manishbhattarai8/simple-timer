@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background for a clean look */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #4CAF50; /* Use a strong color for the title */
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #3e8e41; /* Darker green on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.1s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+button:active {
+    transform: scale(0.98); /* Button press effect */
+}
+
+#timer-display {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #d9534f; /* Strong color for alert */
+}
+button:disabled {
+    background-color: #ccc; /* Grey out disabled buttons */
+    cursor: not-allowed; /* Change cursor to indicate disabled state */
+}
